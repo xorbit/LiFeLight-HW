@@ -5,6 +5,7 @@ LiFeLight hardware
 [MSP430G2210]: http://www.ti.com/product/msp430g2210
 [CCS]: http://www.ti.com/tool/ccstudio
 [Github project]: https://github.com/xorbit/LiFeLight
+[OSH Park]: https://oshpark.com/shared_projects/UGFRTknj
 
 This is the Eagle source project for the LiFeLight demo board hardware.  LiFeLight is a board developed as a soldering kit for the Maker Faire, that can be added to a [LiFePO4wered/USB][] module to create a programmable touch flashlight.  It's a good example of getting decent functionality with minimal, low cost hardware.  It has the following subsystems:
 
@@ -22,3 +23,8 @@ Microcontroller
 ---------------
 
 All LiFeLight functionality is implemented in software that runs on a low cost [MSP430G2210][] microcontroller.  The software was implemented using [CCS][].  The source code can be found in this [Github project][].
+
+Ordering
+--------
+
+If you don't want to deal with doing it yourself, the PCBs can be ordered conveniently from [OSH Park][].
